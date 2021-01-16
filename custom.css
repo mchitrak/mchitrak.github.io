@@ -1,0 +1,90 @@
+.case-header{
+    margin-left: 100px;
+}
+
+#case-comparison{
+    padding: 24px 0px 24px 0px ;
+    background-color: #E8E8E8;
+}
+
+#case-highlights{
+    background-color: #E8E8E8;
+}
+
+#case-features-01{
+    padding: 100px 0 100px 0px ;
+}
+
+#case-intro{
+    padding: 100px 0 100px 0px ;
+}
+
+
+/* Text Style fixes*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fraunces', sans-serif !important;
+  }
+
+h2{
+    line-height: 48px;
+}
+
+h3{
+    line-height: 40px;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover {
+    color:rgb(11, 78, 87);
+}
+
+p.byline-text{
+    font-size: larger;
+}
+
+p,ol,ul,a {
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: 32px;
+}
+
+p, ul {
+    color: #7A7A7A;
+}
+
+
+/* Shine effect for images */
+.hover14 img {
+	position: relative;
+}
+.hover14 img::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 img:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
