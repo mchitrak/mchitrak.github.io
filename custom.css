@@ -22,15 +22,15 @@
 
 /* Image hover*/
 
-.grow img{
-	transition: 1s ease;
+.img-grow img{
+	transition: 0.7s ease;
 	}
 	
-	.grow img:hover{
+	.img-grow img:hover{
 	-webkit-transform: scale(1.02);
 	-ms-transform: scale(1.02);
 	transform: scale(1.02);
-	transition: 1s ease;
+	transition: 0.7s ease;
 	}
 
 /* Text Style fixes*/
