@@ -1,3 +1,11 @@
+/* Smooth Scrolling */
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
+
 .case-header{
     margin-left: 100px;
 }
@@ -36,7 +44,7 @@
 /* Text Style fixes*/
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Fraunces', sans-serif !important;
+    font-family: 'Texturina', sans-serif !important;
   }
 
 h2{
@@ -60,7 +68,8 @@ p.byline-text{
 }
 
 p,ol,ul,a {
-    font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 17px;
     line-height: 32px;
 }
 
