@@ -20,6 +20,19 @@
 }
 
 
+/* Image hover*/
+
+.grow img{
+	transition: 1s ease;
+	}
+	
+	.grow img:hover{
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+	transition: 1s ease;
+	}
+
 /* Text Style fixes*/
 
 h1,h2,h3,h4,h5,h6 {
